@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 body {
-    /* height: 8000; */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .header {
@@ -42,8 +41,9 @@ body {
     width: 100%;
     height: 100vh;
     background-image: url(../images/20\ Exquisite\ Japandi\ Transitional\ Mash-Up\ Living\ Room\ Interior\ Inspirations.jpg );
-    /* background-size:cover;
-    background-repeat: no-repeat ; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     
 }
 .home-overlay {
@@ -132,8 +132,9 @@ body {
     color: #AB886D;
 }
 .fully-p {
-    margin: 50px 0;
+    margin: 25px 0;
     text-transform: capitalize;
+    line-height: 20px;
 } 
 .fully-title {
     margin-top: 20px;
@@ -193,6 +194,7 @@ body {
     float: left;
     border-radius: 10px;
     background-size: cover;
+    background-position: center;
     position: relative;
 
 }
@@ -607,10 +609,7 @@ span {
     margin: auto;
     margin-top: 50px;
 }
-.team-content {
-    
 
-}
 .team-item {
     float: left;
     background-color: rgb(210, 206, 206);
@@ -835,4 +834,11 @@ span {
     font-size: 20px;
     margin-top: 20px;
     padding-bottom: 20px;
+}
+.end-a ul li:hover {
+    background-color: bisque;
+
+}
+.end-a ul li:hover i {
+    color: #673e1e;
 }
